@@ -4,12 +4,12 @@ strategy:
   target:
     driver: rubykube
     market: 'ETHUSD'
-    host: "https://brandlovers.co.za/“
+    host: "https://www.brandlovers.co.za/“
     key: "fa45a30e94b1eb1c"
     secret: "6dfdb515791ef72a4e24dae497ae925f"
     rate_limit: 1
   sources:
-    - driver: bitfaker
+    - driver: bitfinex
       market: 'ETHUSD'
       host: "api.bitfinex.com"
       key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
