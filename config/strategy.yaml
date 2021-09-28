@@ -4,13 +4,13 @@ strategy:
   target:
     driver: rubykube
     market: 'ETHUSD'
-    host: "http://www.brandlovers.com"
-    key: "9d77093cfa8a8855"
+    host: "https://openfinex.io/"
+    key: "5b3176f9d6158ebe"
     secret: "793cabeabb02c7b4bd67189ca1620e00"
     rate_limit: 1
   sources:
     - driver: bitfinex
-      market: 'tETHUSD'
+      market: 'ETHUSD'
       host: "api.bitfinex.com"
       key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
       secret: "ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM"
