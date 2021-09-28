@@ -3,15 +3,15 @@ strategy:
   volume_ratio: 0.1
   target:
     driver: rubykube
-    market: 'FTHUSD'
-    host: "http://www.devkube.com"
-    key: ""
-    secret: ""
+    market: 'ETHUSD'
+    host: "https://brandlovers.co.za/“
+    key: "fa45a30e94b1eb1c"
+    secret: "6dfdb515791ef72a4e24dae497ae925f"
     rate_limit: 1
   sources:
     - driver: bitfaker
-      market: 'tETHUSD'
+      market: 'ETHUSD'
       host: "api.bitfinex.com"
-      key: ""
-      secret: ""
+      key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
+      secret: "ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM"
       rate_limit: 0.2
