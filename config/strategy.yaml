@@ -5,14 +5,14 @@ strategy:
       driver: bitfinex
       host: api.bitfinex.com
       key: GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf
-      market: tETHUSD
+      market: ETHUSD
       rate_limit: 0.2
       secret: ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM
   target: 
     driver: rubykube
     host: "https://www.brandlovers.co.za"
     key: fa45a30e94b1eb1c
-    market: FTHUSD
+    market: ETHUSD
     rate_limit: 1
     secret: 6dfdb515791ef72a4e24dae497ae925f
   type: copy
