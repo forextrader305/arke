@@ -5,8 +5,8 @@ strategy:
     driver: rubykube
     market: 'ETHUSD'
     host: "https://openfinex.io/"
-    key: "5b3176f9d6158ebe"
-    secret: "793cabeabb02c7b4bd67189ca1620e00"
+    key: "fa45a30e94b1eb1c"
+    secret: "6dfdb515791ef72a4e24dae497ae925f"
     rate_limit: 1
   sources:
     - driver: bitfinex
